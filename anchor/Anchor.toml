@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+hello_anchor = "CFzoprd9wxj64pZKCMQaRtpZWeJPgZ5WFEzhewDLjZH4"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/benjamin/Desktop/keypair.json"
+
+[scripts]
+test = "ts-mocha -p ./tsconfig.json -t 1000000 ./tests/**/*.ts"
